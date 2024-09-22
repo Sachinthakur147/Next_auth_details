@@ -1,0 +1,93 @@
+.container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ #h1 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+ 
+ #h3 {
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+ }
+ 
+ #button {
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .bg-red {
+     background-color: #e53e3e; /* Red */
+     color: white;
+ }
+ 
+ .bg-blue {
+     background-color: #3182ce; /* Blue */
+     color: white;
+ }
+ 
+ .bg-yellow {
+     background-color: #f6e05e; /* Yellow */
+     color: black;
+ }
+ 
+ .bg-green {
+     background-color: #48bb78; /* Green */
+     color: white;
+ }
+ 
+ .bg-gray {
+     background-color: #cbd5e0; /* Gray */
+     color: black;
+ }
+ 
+ #table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 20px 0;
+     background-color: white;
+ }
+ 
+ #th, #td {
+     padding: 10px;
+     border: 1px solid #e2e8f0;
+     text-align: left;
+ }
+ 
+ #th {
+     background-color: #f7fafc;
+ }
+ 
+ #modal {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.5);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .modal-content {
+     background: white;
+     border-radius: 8px;
+     padding: 20px;
+     width: 300px;
+ }
+ 
+ #input {
+     width: 100%;
+     padding: 8px;
+     margin: 10px 0;
+     border: 1px solid #e2e8f0;
+     border-radius: 4px;
+ }
+ 

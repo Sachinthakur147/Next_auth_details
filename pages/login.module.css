@@ -1,0 +1,101 @@
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #ecf0f1; /* Light gray */
+ }
+ 
+ .loginButton {
+     padding: 12px 24px;
+     font-size: 18px;
+     color: white;
+     background-color: #2980b9; /* Blue */
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+ 
+ .loginButton:hover {
+     background-color: #3498db; /* Lighter blue */
+ }
+ 
+ .modal {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .modalContent {
+     background-color: #ffffff; /* White */
+     padding: 40px;
+     border-radius: 10px;
+     width: 400px; /* Increased width */
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+     position: relative;
+ }
+ 
+ .close {
+     position: absolute;
+     top: 15px;
+     right: 20px;
+     font-size: 24px;
+     color: #e74c3c; /* Red */
+     cursor: pointer;
+ }
+ 
+ .modalTitle {
+     font-size: 24px;
+     margin-bottom: 20px;
+     color: #2980b9; /* Blue */
+     text-align: center;
+ }
+ 
+ .inputGroup {
+     margin-bottom: 20px;
+ }
+ 
+ .label {
+     display: block;
+     margin-bottom: 8px;
+     font-weight: bold;
+     font-size: 16px;
+     color: #34495e; /* Dark gray */
+ }
+ 
+ .input12 {
+     width: 90%;
+     margin-left: 10%;
+     padding: 12px;
+      /* Light gray border */
+      border: 1px solid gray;
+     border-radius: 5px;
+     font-size: 16px;
+     color: black;
+     margin-top: 4px; /* Added margin for space between label and input */
+ }
+ 
+ 
+ .submitButton {
+     width: 100%;
+     padding: 12px;
+     font-size: 18px;
+     color: white;
+     background-color: #27ae60; /* Green */
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+ 
+ .submitButton:hover {
+     background-color: #2ecc71; /* Lighter green */
+ }
+ 
